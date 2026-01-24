@@ -13,16 +13,9 @@ public class Single_Inheritance {
         }
     }
 
-    static class C extends B {
-        void showC() {
-            System.out.println("This is a class C");
-        }
-    }
-
     public static void main(String[] args) {
-        C c = new C();
-        c.showA();
-        c.showB();
-        c.showC();
+        B b = new B();
+        b.showA();
+        b.showB();
     }
 }
