@@ -1,4 +1,4 @@
-//Matrix Addition Program
+//Matrix Subtraction Program
 
 class MatrixSubtractionExample {
     public static void main(String[] args) {
@@ -19,7 +19,7 @@ class MatrixSubtractionExample {
             }
         }
 
-        System.out.println("Matrix addition:");
+        System.out.println("Matrix subtraction:");
         for (int i = 0; i < 2; i++) {
             for (int j = 0; j < 2; j++) {
                 System.out.print(result[i][j] + " ");
